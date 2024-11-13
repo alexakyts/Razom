@@ -1,0 +1,14 @@
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\bin\Debug\net8.0\Rule.DAL.deps.json
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\bin\Debug\net8.0\Rule.DAL.runtimeconfig.json
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\bin\Debug\net8.0\Rule.DAL.dll
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\bin\Debug\net8.0\Rule.DAL.pdb
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.csproj.AssemblyReference.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.AssemblyInfoInputs.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.AssemblyInfo.cs
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.dll
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\refint\Rule.DAL.dll
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.pdb
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\Rule.DAL.genruntimeconfig.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.DAL\obj\Debug\net8.0\ref\Rule.DAL.dll
