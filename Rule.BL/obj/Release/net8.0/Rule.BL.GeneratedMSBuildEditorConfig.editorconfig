@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Rule.DAL
-build_property.ProjectDir = C:\Users\User\Source\Repos\Razom\Rule.DAL\
+build_property.RootNamespace = Rule.BL
+build_property.ProjectDir = C:\Users\User\Source\Repos\Razom\Rule.BL\
