@@ -1,0 +1,14 @@
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\bin\Debug\net8.0\Rule.Common.deps.json
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\bin\Debug\net8.0\Rule.Common.runtimeconfig.json
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\bin\Debug\net8.0\Rule.Common.dll
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\bin\Debug\net8.0\Rule.Common.pdb
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.csproj.AssemblyReference.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.AssemblyInfoInputs.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.AssemblyInfo.cs
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.csproj.CoreCompileInputs.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.dll
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\refint\Rule.Common.dll
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.pdb
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\Rule.Common.genruntimeconfig.cache
+C:\Users\kytsu\Desktop\Rule34-master\Rule.Common\obj\Debug\net8.0\ref\Rule.Common.dll
