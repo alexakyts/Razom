@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/824591db64.js" crossorigin="anonymous"></script>
+    <link href="~/css/pritulki.css" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .post {
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #b8b6b6;
+            /* Сірий колір фону поста */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+        }
+
+        .post-img {
+            width: 150px; /* Set the width of all post images */
+            height: 150px; /* Set the height of all post images */
+            border-radius: 5px;
+            margin-right: 20px;
+            object-fit: cover; /* Ensure the image covers the specified dimensions */
+        }
+
+        .post-description {
+            flex-grow: 1;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+            .post-header img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            .post-header .username {
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+        .post-footer {
+            color: #595252;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="post">
+        <img class="post-img" src="/images/лого.jpg.400x400_q85_box-0,0,400,400_crop_detail.jpg"
+             alt="Зображення поста">
+        <div class="post-description">
+            <div class="post-header">
+                <img src="/images/photo_5249045713772469674_x.jpg" alt="Профільне фото">
+                <div class="username">mecolA</div>
+                <div class="post-footer" style="margin-left: auto;">
+                    <span>06.01.2024</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>Сіріус – про людей з добрим серцем, які допомагають тваринам.</p>
+            </div>
+            <div style="border: 2px solid #000; border-radius: 25px; padding: 10px 40px; background: linear-gradient(to right, #ffffff 70%, #000000 30%);">
+            </div>
+            <i class="fa-regular fa-credit-card"></i>
+            <a href="https://send.monobank.ua/jar/9jGZi2UHSF"
+               style="margin-left: 5px; font-family: Impact, Charcoal, sans-serif;">Фінансова підтримка</a>
+            <a href="https://dogcat.com.ua/" class="source-btn">Перейти на джерело</a>
+        </div>
+    </div>
+
+    <div class="post">
+        <img class="post-img" src="/images/logocrop.webp" alt="Зображення поста">
+        <div class="post-description">
+            <div class="post-header">
+                <img src="/images/photo_5249045713772469676_x.jpg" alt="Профільне фото">
+                <div class="username">vera</div>
+                <div class="post-footer" style="margin-left: auto;">
+                    <span>12.03.2024</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>В добрі руки - це центр адопції безхатніх тварин</p>
+            </div>
+            <div style="border: 2px solid #000; border-radius: 25px; padding: 10px 40px; background: linear-gradient(to right, #ffffff 80%, #000000 20%);">
+            </div>
+            <i class="fa-regular fa-credit-card"></i>
+            <a href="https://send.monobank.ua/jar/9jGZi2UHSF"
+               style="margin-left: 5px; font-family: Impact, Charcoal, sans-serif;">Фінансова підтримка</a>
+            <a href="https://dobri-ruky.com.ua/" class="source-btn">Перейти на джерело</a>
+        </div>
+    </div>
+
+    <div class="post">
+        <img class="post-img" src="/images/pet.JPG" alt="Зображення поста">
+        <div class="post-description">
+            <div class="post-header">
+                <img src="/images/photo_5249045713772469678_x.jpg" alt="Профільне фото">
+                <div class="username">cantwait</div>
+                <div class="post-footer" style="margin-left: auto;">
+                    <span>23.03.2024</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>
+                    Ти віриш в життя, де кожна домашня тварина має затишний і безпечний дім?
+                    Ми так! Саме тому PetHelp допомагає знайти люблячих
+                    господарів для їхніх тварин. Приєднуйся до нас! Знайди собі друга прямо зараз.
+                </p>
+            </div>
+            <div style="border: 2px solid #000; border-radius: 25px; padding: 10px 40px; background: linear-gradient(to right, #ffffff 50%, #000000 50%);">
+            </div>
+            <i class="fa-regular fa-credit-card"></i>
+            <a href="https://send.monobank.ua/jar/9jGZi2UHSF"
+               style="margin-left: 5px; font-family: Impact, Charcoal, sans-serif;">Фінансова підтримка</a>
+            <a href="https://pethelp.com.ua/" class="source-btn">Перейти на джерело</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-colour: #000000;
+    --main-colour: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 30px 18%;
+    transition: ease 0.4s;
+}
+
+section {
+    padding: 80px 18%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/Дизайн.png');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: var(--big-font);
+    line-height: 1.2;
+    color: var(--second-colour);
+    font-family: "Paytone One", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.home-text p {
+    color: rgba(0, 0, 0, 0.749);
+    font-size: 20px;
+    /* Adjusted font size */
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.home-text a {
+    color: rgba(0, 0, 0, 0.749);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 50px;
+    /* Збільшуємо відступ зверху між <a> та <p> */
+}
+.fond1 {
+    background-color: #fff;
+    border: 40px solid #535353;
+    margin-bottom: 50px;
+}
+
+.profile-pic {
+    width: 300px;
+    /* Змініть на бажаний розмір */
+    height: 300px;
+    /* Змініть на бажаний розмір */
+    object-fit: cover;
+    object-position: center;
+}
+
+.Levu {
+    display: flex;
+    align-items: center;
+}
+
+.Levu .profile-pic {
+    margin-right: 60px;
+    /* optional: add some space between the image and the text */
+}
+
+
+.na p {
+    margin-bottom: 15px;
+    /* Збільшуємо відступ між текстами */
+    font-weight: bold;
+}
+
+/* Стилі кнопки */
+.source-btn {
+    display: inline-block;
+    /* Змінюємо на inline-block, щоб кнопка займала тільки необхідний обсяг */
+    margin-top: 20px;
+    /* Відступ від тексту вище */
+    padding: 8px 15px;
+    /* Задаємо відступи внутрішнього вмісту кнопки */
+    background-color: #8d8d8d;
+    /* Сірий колір фону кнопки */
+    color: #ffffff;
+    /* Колір тексту */
+    text-decoration: none;
+    /* Видаляємо підкреслення посилання */
+    border: 1px solid #000;
+    /* Чорна обрамляюча лінія */
+    border-radius: 5px;
+    /* Закругленість кутів */
+    font-family: 'Open Sans', sans-serif;
+    /* Шрифт */
+    font-size: 14px;
+    /* Зменшуємо розмір шрифту */
+    cursor: pointer;
+    /* Змінюємо курсор при наведенні на кнопку */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    /* Плавна анімація зміни властивостей */
+}
+
+/* Змінюємо колір фону та тексту кнопки при наведенні */
+.source-btn:hover {
+    background-color: #d9d9d9;
+    color: #000;
+    border-color: #000;
+}
+
+/* Стилі кнопки "Задонатити" */
+.donate-btn {
+    display: inline-block;
+        /* Змінюємо на inline-block, щоб кнопка займала тільки необхідний обсяг */
+        margin-top: 20px;
+        /* Відступ від тексту вище */
+        padding: 8px 15px;
+        /* Задаємо відступи внутрішнього вмісту кнопки */
+        background-color: #8d8d8d;
+        /* Сірий колір фону кнопки */
+        color: #ffffff;
+        /* Колір тексту */
+        text-decoration: none;
+        /* Видаляємо підкреслення посилання */
+        border: 1px solid #000;
+        /* Чорна обрамляюча лінія */
+        border-radius: 5px;
+        /* Закругленість кутів */
+        font-family: 'Open Sans', sans-serif;
+        /* Шрифт */
+        font-size: 14px;
+        /* Зменшуємо розмір шрифту */
+        cursor: pointer;
+        /* Змінюємо курсор при наведенні на кнопку */
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        /* Плавна анімація зміни властивостей */
+}
+
+.donate-btn:hover {
+    background-color: #d9d9d9;
+        color: #000;
+        border-color: #000;
+}
+
+.fond2 {
+    background-color: #fff;
+    border: 40px solid #535353;
+    margin-bottom: 50px;
+}
+
+.Comeback {
+    display: flex;
+    align-items: center;
+}
+
+.Comeback .profile-pic {
+    margin-right: 60px;
+    /* optional: add some space between the image and the text */
+}
+
+
+.na p {
+    margin-bottom: 15px;
+    /* Збільшуємо відступ між текстами */
+    font-weight: bold;
+}
+
+.fond3 {
+    background-color: #fff;
+    border: 40px solid #535353;
+    margin-bottom: 50px;
+}
+
+.Prutyla {
+    display: flex;
+    align-items: center;
+}
+
+.Prutyla .profile-pic {
+    margin-right: 60px;
+    /* optional: add some space between the image and the text */
+}
+
+
+.donat p {
+    margin-bottom: 15px;
+    /* Збільшуємо відступ між текстами */
+    font-weight: bold;
+}
+
+.fond4 {
+    background-color: #fff;
+    border: 40px solid #535353;
+    margin-bottom: 50px;
+}
+
+.fondation {
+    display: flex;
+    align-items: center;
+}
+
+.fondation .profile-pic {
+    margin-right: 60px;
+    /* optional: add some space between the image and the text */
+}
+.kse p {
+    margin-bottom: 15px;
+    /* Збільшуємо відступ між текстами */
+    font-weight: bold;
+}
+
+.fond5 {
+    background-color: #fff;
+    border: 40px solid #535353;
+    margin-bottom: 50px;
+}
+
+.zgraya {
+    display: flex;
+    align-items: center;
+}
+
+.zgraya .profile-pic {
+    margin-right: 60px;
+    /* optional: add some space between the image and the text */
+}
+
+.v p {
+    margin-bottom: 15px;
+    /* Збільшуємо відступ між текстами */
+    font-weight: bold;
+}
+
+
+/* Додаткові стилі для мобільних пристроїв */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .home {
+        padding: 15px;
+    }
+
+    .home-text h1 {
+        font-size: var(--h2-font);
+    }
+
+    .home-text p,
+    .home-text a {
+        font-size: var(--small-font);
+    }
+
+    .Levu .profile-pic,
+    .Comeback .profile-pic,
+    .Prutyla .profile-pic,
+    .fondation .profile-pic,
+    .zgraya .profile-pic {
+        margin-right: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .source-btn,
+    .donate-btn {
+        font-size: var(--small-font);
+    }
+}

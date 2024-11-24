@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Rule.BL.Models.FoundationsDTO>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="~/css/fonds.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+    </head>
+
+    <body>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1> Фонди</h1>
+                <p>Серце до серця:</p>
+                <a> змінюємо життя разом, один внесок за одну долю.</a>
+                <a src="/images/Дизайн.png"></a>
+            </div>
+        </section>
+        @foreach (var fond in Model)
+        {
+            <section class="fond1">
+                <div class="fond-container">
+                <img class="profile-pic" src="/images/@fond.Pictures" alt="Profile Picture">
+                    <div class="fond-details">
+                        <h1>@fond.Name</h1>
+                        <p>@fond.Description</p>
+                        <a href="@fond.SourceLink" class="source-btn">Перейти на джерело</a>
+                        <a href="@fond.Link" class="donate-btn">Задонатити</a>
+                    </div>
+                </div>
+            </section>
+        }
+    </body>
+</html>

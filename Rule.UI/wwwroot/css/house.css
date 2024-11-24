@@ -1,0 +1,26 @@
+.source-btn {
+    display: inline-block;
+    /* Змінюємо на inline-block, щоб кнопка займала тільки необхідний обсяг */
+    margin-top: 20px;
+    /* Відступ від тексту вище */
+    padding: 8px 15px;
+    /* Задаємо відступи внутрішнього вмісту кнопки */
+    background-color: #8d8d8d;
+    /* Сірий колір фону кнопки */
+    color: #ffffff;
+    /* Колір тексту */
+    text-decoration: none;
+    /* Видаляємо підкреслення посилання */
+    border: 1px solid #000;
+    /* Чорна обрамляюча лінія */
+    border-radius: 5px;
+    /* Закругленість кутів */
+    font-family: 'Open Sans', sans-serif;
+    /* Шрифт */
+    font-size: 14px;
+    /* Зменшуємо розмір шрифту */
+    cursor: pointer;
+    /* Змінюємо курсор при наведенні на кнопку */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    /* Плавна анімація зміни властивостей */
+}

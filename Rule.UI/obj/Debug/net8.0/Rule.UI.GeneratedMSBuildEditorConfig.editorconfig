@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Rule.UI
+build_property.RootNamespace = Rule.UI
+build_property.ProjectDir = D:\Універ 4 курс\7 сем\ТСПП\Rule34-master\Rule.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Універ 4 курс\7 сем\ТСПП\Rule34-master\Rule.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Foundations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Foundations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Foundations/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Foundations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Foundations/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm91bmRhdGlvbnNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Home/House.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb3VzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Home/Mental.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW50YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Home/Pritulki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml0dWxraS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Home/Zbory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxaYm9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Posts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Posts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Posts/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Posts/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcR2V0QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Posts/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcR2V0QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/Users/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Універ 4 курс/7 сем/ТСПП/Rule34-master/Rule.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

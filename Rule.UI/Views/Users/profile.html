@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./profile.css">
+</head>
+
+<body>
+    <div class="container light-style flex-grow-1 container-p-y">
+        <h4 class="font-weight-bold py-3 mb-4">
+            Налаштування акаунту
+        </h4>
+        <div class="card overflow-hidden">
+            <div class="row no-gutters row-bordered row-border-light">
+                <div class="col-md-12">
+                    <div class="card-body">
+                        <form id="account-form">
+                            <div class="form-group">
+                                <label class="form-label">Нік</label>
+                                <input type="text" class="form-control mb-1" value="">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Ім'я</label>
+                                <input type="text" class="form-control" value="">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Пошта</label>
+                                <input type="text" class="form-control mb-1" id="email" value="">
+                            </div>
+                            <div class="form-group d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-outline-secondary"
+                                    id="change-password-link">Змінити
+                                    пароль</button>
+                                
+                            </div>
+                            <div class="form-group" id="password-section" style="display:none;">
+                                <label class="form-label">Введіть старий пароль</label>
+                                <input type="password" class="form-control mb-1" id="old-password">
+                                <label class="form-label">Введіть новий пароль</label>
+                                <input type="password" class="form-control mb-1" id="new-password">
+                                <label class="form-label">Повторіть новий пароль</label>
+                                <input type="password" class="form-control" id="confirm-new-password">
+                                <div class="invalid-feedback" id="password-match-error" style="display:none;">Паролі не
+                                    збігаються</div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Фото</label>
+                                <div class="media">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="User Avatar"
+                                        class="d-block ui-w-80 user-avatar">
+                                    <div class="media-body ml-3">
+                                        <label class="btn btn-outline-secondary">
+                                            Завантажити фото
+                                            <input type="file" class="account-settings-fileinput">
+                                        </label> &nbsp;
+                                        <button type="button" class="btn btn-secondary md-btn-flat"
+                                            id="reset-photo-btn">Скинути</button>
+                                        <div class="text-light small mt-1">Дозволені формати: JPG, GIF або PNG.
+                                            Максимальний розмір: 800Kb</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-right mt-3">
+                                <button type="submit" class="btn btn-secondary" id="save-btn">Зберегти
+                                    зміни</button>&nbsp;
+                                <button type="button" class="btn btn-secondary">Відмінити</button>
+                            </div>
+                        </form>
+                        <div class="alert alert-warning mt-3">
+                            Ваша електронна пошта не підтверджена. Будь ласка, перевірте свою поштову скриньку.<br>
+                            <a href="#">Повторно надіслати підтвердження</a>
+                        </div>
+                        <button type="button" class="btn btn-danger" id="logout-btn">Вийти з акаунту</button>
+                        <button type="button" class="btn btn-danger" id="delete-account-btn">Видалити
+                            акаунт</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <sript src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#change-password-link').on('click', function () {
+            $('#password-section').toggle();
+        });
+
+        // Функція для обробки події вибору файлу
+        $('.account-settings-fileinput').on('change', function (e) {
+            var fileInput = $(this)[0].files[0];
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.user-avatar').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(fileInput);
+        });
+
+        // Функція для скидання фотографії на значення за замовчуванням
+        $('#reset-photo-btn').on('click', function () {
+            $('.user-avatar').attr('src', 'https://bootdey.com/img/Content/avatar/avatar1.png');
+        });
+
+        // Функція для обробки відправки форми
+        $('#account-form').on('submit', function (e) {
+            e.preventDefault(); // Prevent form submission for now, we handle it manually
+
+            // Retrieve form data
+            var email = $('#email').val();
+            var oldPassword = $('#old-password').val();
+            var newPassword = $('#new-password').val();
+            var confirmNewPassword = $('#confirm-new-password').val();
+
+            // Check if password section is visible and all password fields are filled
+            if ($('#password-section').is(':visible')) {
+                if (!oldPassword || !newPassword || !confirmNewPassword) {
+                    alert('Будь ласка, заповніть всі поля для зміни пароля');
+                    return;
+                }
+
+                // Check if new passwords match
+                if (newPassword !== confirmNewPassword) {
+                    $('#password-match-error').show();
+                    return;
+                } else {
+                    $('#password-match-error').hide();
+                }
+
+                // Here you can proceed with password change logic
+                // Make AJAX call or handle it according to your backend
+                console.log('Old Password:', oldPassword);
+                console.log('New Password:', newPassword);
+                console.log('Confirm New Password:', confirmNewPassword);
+
+                // For demonstration purposes, I'm just showing an alert
+                alert('Пароль успішно змінено!');
+            } else {
+                // Proceed with the rest of the form submission logic
+                console.log('Email:', email);
+
+                // For demonstration purposes, I'm just showing an alert
+                alert('Зміни збережено!');
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#change-password-link').on('click', function () {
+                    $('#password-section').toggle();
+                });
+
+                // Функція для обробки події вибору файлу
+                $('.account-settings-fileinput').on('change', function (e) {
+                    var fileInput = $(this)[0].files[0];
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('.user-avatar').attr('src', e.target.result);
+                    }
+
+                    reader.readAsDataURL(fileInput);
+                });
+
+                // Функція для скидання фотографії на значення за замовчуванням
+                $('#reset-photo-btn').on('click', function () {
+                    $('.user-avatar').attr('src', 'https://bootdey.com/img/Content/avatar/avatar1.png');
+                });
+
+                // Функція для обробки відправки форми
+                $('#account-form').on('submit', function (e) {
+                    e.preventDefault(); // Prevent form submission for now, we handle it manually
+
+                    // Retrieve form data
+                    var email = $('#email').val();
+                    var oldPassword = $('#old-password').val();
+                    var newPassword = $('#new-password').val();
+                    var confirmNewPassword = $('#confirm-new-password').val();
+
+                    // Check if password section is visible and all password fields are filled
+                    if ($('#password-section').is(':visible')) {
+                        if (!oldPassword || !newPassword || !confirmNewPassword) {
+                            alert('Будь ласка, заповніть всі поля для зміни пароля');
+                            return;
+                        }
+
+                        // Check if new passwords match
+                        if (newPassword !== confirmNewPassword) {
+                            $('#password-match-error').show();
+                            return;
+                        } else {
+                            $('#password-match-error').hide();
+                        }
+
+                        // Here you can proceed with password change logic
+                        // Make AJAX call or handle it according to your backend
+                        console.log('Old Password:', oldPassword);
+                        console.log('New Password:', newPassword);
+                        console.log('Confirm New Password:', confirmNewPassword);
+
+                        // For demonstration purposes, I'm just showing an alert
+                        alert('Пароль успішно змінено!');
+                    } else {
+                        // Proceed with the rest of the form submission logic
+                        console.log('Email:', email);
+
+                        // For demonstration purposes, I'm just showing an alert
+                        alert('Зміни збережено!');
+                    }
+                });
+            });
+        </script>
+</body>
+
+</html>

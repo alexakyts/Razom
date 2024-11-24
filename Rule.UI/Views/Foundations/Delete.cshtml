@@ -1,0 +1,24 @@
+﻿@model Rule.BL.Models.FoundationsDTO
+
+<h2>Delete Foundations</h2>
+
+<form asp-controller="Foundations" asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <div>
+        <h4>Are you sure you want to delete this foundation?</h4>
+        <h5>Name:</h5>
+        <p>@Model.Name</p>
+        <h5>Description:</h5>
+        <p>@Model.Description</p>
+        <h5>Link:</h5>
+        <p>@Model.Link</p>
+        <h5>Image:</h5>
+        <p>@Model.Pictures</p>
+    </div>
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
+
+<form asp-controller="Foundations" asp-action="Index" method="post">
+    <button type="submit" class="btn btn-danger">Return</button>
+</form>

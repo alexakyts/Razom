@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Rule.BL.Models.PostsDTO>
+
+<h2>Posts</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>FinishSum</th>
+            <th>CreationTime</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.FinishSum</td>
+                <td>@item.CreationTime</td>
+                <td>@item.Link</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-controller="Posts" asp-action="Index" method="post">
+    <button type="submit" class="btn btn-danger">Return</button>
+</form>

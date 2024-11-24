@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\_Layout.css",
+      "PackagePath": "staticwebassets\\css\\_Layout.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\fonds.css",
+      "PackagePath": "staticwebassets\\css\\fonds.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\house.css",
+      "PackagePath": "staticwebassets\\css\\house.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\mental.css",
+      "PackagePath": "staticwebassets\\css\\mental.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\pritulki.css",
+      "PackagePath": "staticwebassets\\css\\pritulki.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\css\\zboru.css",
+      "PackagePath": "staticwebassets\\css\\zboru.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\0e95f21e723ddddf1f29ff37e958221b.webp",
+      "PackagePath": "staticwebassets\\images\\0e95f21e723ddddf1f29ff37e958221b.webp"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\10814.jpg",
+      "PackagePath": "staticwebassets\\images\\10814.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\323445430_639173824644939_4219871092730469477_n.png",
+      "PackagePath": "staticwebassets\\images\\323445430_639173824644939_4219871092730469477_n.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\429831_1.webp",
+      "PackagePath": "staticwebassets\\images\\429831_1.webp"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\62079728675e7.jpeg",
+      "PackagePath": "staticwebassets\\images\\62079728675e7.jpeg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\62e7a3da122bd813028c43fb_Rectangle 291.webp",
+      "PackagePath": "staticwebassets\\images\\62e7a3da122bd813028c43fb_Rectangle 291.webp"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\KSE-Avatar-1.png",
+      "PackagePath": "staticwebassets\\images\\KSE-Avatar-1.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\back.png",
+      "PackagePath": "staticwebassets\\images\\back.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\cc75afbd-d09cc517668a2bf28131681630c1e932.jpg",
+      "PackagePath": "staticwebassets\\images\\cc75afbd-d09cc517668a2bf28131681630c1e932.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\dom.png",
+      "PackagePath": "staticwebassets\\images\\dom.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\dw eopf .jpg",
+      "PackagePath": "staticwebassets\\images\\dw eopf .jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\fb1c7586df69c456cddde0d405742c61.webp",
+      "PackagePath": "staticwebassets\\images\\fb1c7586df69c456cddde0d405742c61.webp"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\fond.JPG",
+      "PackagePath": "staticwebassets\\images\\fond.JPG"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\fond.png",
+      "PackagePath": "staticwebassets\\images\\fond.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\ginekolog-cherkasy-likar.jpg",
+      "PackagePath": "staticwebassets\\images\\ginekolog-cherkasy-likar.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\help.png",
+      "PackagePath": "staticwebassets\\images\\help.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\image_2022-07-12_10-04-19.png",
+      "PackagePath": "staticwebassets\\images\\image_2022-07-12_10-04-19.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\images.png",
+      "PackagePath": "staticwebassets\\images\\images.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\logocrop.webp",
+      "PackagePath": "staticwebassets\\images\\logocrop.webp"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\pet.JPG",
+      "PackagePath": "staticwebassets\\images\\pet.JPG"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2023-05-30_13-58-19.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2023-05-30_13-58-19.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2023-06-19_21-41-02.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2023-06-19_21-41-02.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2023-08-24_03-14-01.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2023-08-24_03-14-01.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2023-09-20_10-17-00.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2023-09-20_10-17-00.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2024-03-01_16-13-46.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2024-03-01_16-13-46.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2024-03-14_15-51-25.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2024-03-14_15-51-25.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_2024-04-14_12-29-05.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2024-04-14_12-29-05.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_5249045713772469674_x.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_5249045713772469674_x.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_5249045713772469676_x.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_5249045713772469676_x.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\photo_5249045713772469678_x.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_5249045713772469678_x.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\pritulok.png",
+      "PackagePath": "staticwebassets\\images\\pritulok.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\tor0.jpg",
+      "PackagePath": "staticwebassets\\images\\tor0.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\volunteering-in-ukraine.jpg",
+      "PackagePath": "staticwebassets\\images\\volunteering-in-ukraine.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\zbory.png",
+      "PackagePath": "staticwebassets\\images\\zbory.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\Дизайн.png",
+      "PackagePath": "staticwebassets\\images\\Дизайн.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\Дизайн1.png",
+      "PackagePath": "staticwebassets\\images\\Дизайн1.png"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\Прихисти_своїх.jpg",
+      "PackagePath": "staticwebassets\\images\\Прихисти_своїх.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\images\\лого.jpg.400x400_q85_box-0,0,400,400_crop_detail.jpg",
+      "PackagePath": "staticwebassets\\images\\лого.jpg.400x400_q85_box-0,0,400,400_crop_detail.jpg"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\js\\_Layout.js",
+      "PackagePath": "staticwebassets\\js\\_Layout.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\js\\form.js",
+      "PackagePath": "staticwebassets\\js\\form.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Універ 4 курс\\7 сем\\ТСПП\\Rule34-master\\Rule.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Rule.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Rule.UI.props",
+      "PackagePath": "build\\Rule.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Rule.UI.props",
+      "PackagePath": "buildMultiTargeting\\Rule.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Rule.UI.props",
+      "PackagePath": "buildTransitive\\Rule.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

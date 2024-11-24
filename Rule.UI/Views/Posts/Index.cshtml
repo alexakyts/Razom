@@ -1,0 +1,49 @@
+﻿﻿@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form asp-controller="Posts" asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+<form asp-controller="Posts" asp-action="GetAll" method="get">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <button type="submit" class="btn btn-primary">GetAll</button>
+</form>
+
+<form asp-controller="Posts" asp-action="GetById" method="get">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input type="text" name="id" placeholder="Enter category id" />
+
+    <button type="submit" class="btn btn-primary">GetById</button>
+</form>
+
+<form asp-controller="Posts" asp-action="Update" method="get">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input type="text" name="id" placeholder="Enter category id" />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+<form asp-controller="Posts" asp-action="Delete" method="get">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input type="text" name="id" placeholder="Enter category id" />
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+</form>

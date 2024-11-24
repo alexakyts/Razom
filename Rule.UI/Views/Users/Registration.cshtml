@@ -1,0 +1,92 @@
+﻿@model Rule.BL.Models.UsersDTO
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/register.css" asp-append-version="true" />
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form id="registrationForm" asp-controller="Users" asp-action="Registration" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" ></div>
+            <h1>Реєстрація</h1>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" asp-for="Name" id="nameInput" placeholder="Ім'я" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <i class="bx bxs-user"></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" asp-for="LastName" id="nameInput" placeholder="Прізвище" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <i class="bx bxs-user"></i>
+                </div>
+            </div>
+
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" asp-for="Username" id="nameInput" placeholder="Нікнейм" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <i class="bx bxs-user"></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" asp-for="Phone" id="nameInput" placeholder="Номер телефону" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <i class="bx bxs-user"></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="email" asp-for="Email" id="emailInput" placeholder="Пошта" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="password" asp-for="Password" id="passwordInput" placeholder="Пароль" required>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" name="ConfirmPassword" id="confirmPasswordInput"
+                           placeholder="Підтвердіть пароль" required>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+            </div>
+
+            <input type="submit" id="registBtn" value="Зареєструватися">
+
+            <label style="margin-top: 0;"><a asp-controller="Users" asp-action="Login">Вже зареєстровані? Ввійти</a></label>
+
+        </form>
+    </div>
+</body>
+
+</html>

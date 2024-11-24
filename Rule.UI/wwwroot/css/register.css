@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #707070;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url('../images/volunteering-in-ukraine.jpg');
+    background-size: cover;
+    background-position: center;*/
+}
+
+    /*body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);*/ /* Затемнення за допомогою кольору rgba(червона, зелена, синя, прозорість) */
+    /*}*/
+
+.wrapper {
+    border: 1px solid black;
+    width: 500px;
+    background: transparent;
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px 35px 55px;
+    margin-top: 50px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box .input-field {
+    position: relative;
+    width: 320px;
+    height: 50px;
+    margin: 9px 0;
+}
+
+.input-box .input-field input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+    margin-left: 55px;
+}
+
+.input-box .input-field input::placeholder {
+    color: #fff;
+}
+
+.input-box .input-field i {
+    position: absolute;
+    left: 78px;
+    top: 30%;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+
+.wrapper label {
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 58px 10px;
+    margin-top: 200px;
+}
+
+.wrapper label input {
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.wrapper label a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.inputs label {
+    margin: 20px;
+}
+
+#registBtn {
+    background-color: #fff;
+    /* Змінив колір на білий */
+    color: #555;
+    /* Змінив колір тексту */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    /* Змінив радіус для зроблення кнопки більш круглою */
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    /* Змінив на блочний для центрування */
+    margin: 20px auto;
+    /* Додав маржу для центрування */
+}
+
+#registBtn:hover {
+    background-color: #eee;
+    /* Змінив колір при наведенні */
+}
+
+/* Адаптація під мобільні пристрої */
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 90%;
+        /* Зменшуємо ширину на малих екранах */
+        max-width: 400px;
+        /* Максимальна ширина для маленьких екранів */
+        padding: 20px;
+        /* Зменшуємо відступи */
+        margin-top: 20px;
+        /* Зменшуємо відступи */
+    }
+
+    .wrapper h1 {
+        font-size: 24px;
+        /* Зменшуємо розмір заголовку */
+        margin-bottom: 15px;
+        /* Зменшуємо відступи */
+    }
+
+    .wrapper .input-box {
+        flex-direction: column;
+        /* Змінюємо напрямок на вертикальний */
+    }
+
+    .input-box .input-field {
+        margin-bottom: 15px;
+        /* Зменшуємо відступи */
+    }
+
+    .input-box .input-field input {
+        font-size: 14px;
+        /* Зменшуємо розмір шрифту */
+        padding: 10px;
+        /* Зменшуємо відступи */
+    }
+
+    .input-box .input-field i {
+        left: 15px;
+        /* Зменшуємо відступи */
+        font-size: 16px;
+        /* Зменшуємо розмір іконки */
+    }
+
+    .wrapper label {
+        font-size: 12px;
+        /* Зменшуємо розмір тексту */
+        margin: 5px 0;
+        /* Зменшуємо відступи */
+    }
+
+    .wrapper .btn {
+        height: 35px;
+        /* Зменшуємо висоту кнопки */
+        font-size: 14px;
+        /* Зменшуємо розмір тексту */
+    }
+
+    #registBtn {
+        padding: 8px 15px;
+        /* Зменшуємо відступи */
+        border-radius: 20px;
+        /* Зменшуємо радіус для круглої кнопки */
+        font-size: 14px;
+        /* Зменшуємо розмір тексту */
+        margin: 15px auto;
+        /* Центруємо кнопку */
+    }
+}
