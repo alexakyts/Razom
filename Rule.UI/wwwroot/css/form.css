@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #808080, #ffffff);
+}
+
+.Container {
+
+    width: 90%;
+    /* зменшуємо ширину для адаптації */
+    max-width:100%;
+    /* максимальна ширина для комп'ютера */
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    /* збільшуємо розмір заголовку для комп'ютера */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#category-label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.input-box select {
+    width: calc(100% - 22px);
+    /* зменшуємо розмір селектора, щоб вмістити іконку */
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #555;
+}
+
+.radio-container {
+    margin-top: 10px;
+}
+
+.radio-container label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-container input[type="radio"]+label:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border: 1px solid #555;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio-container input[type="radio"]:checked+label:before {
+    background-color: #555;
+}
+
+.sumField {
+    display: none;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.content label {
+    font-weight: bold;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #333;
+}
+
+.custom-file-input {
+    display: none;
+}
+
+/* Адаптація під мобільні пристрої */
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 20px;
+        /* зменшуємо розмір заголовку для телефона */
+    }
+
+    .input-box {
+        width: 100%;
+        /* на повний розмір */
+    }
+
+    button {
+        font-size: 14px;
+        /* зменшуємо розмір тексту кнопки для телефона */
+    }
+}

@@ -1,0 +1,85 @@
+ .ui-w-80 {
+     width: 80px !important;
+     height: auto;
+ }
+
+ .btn {
+     background-color: #535353;
+     color: white;
+ }
+
+.btn-primary,
+
+.btn-outline-primary,
+.btn,
+.md-btn-flat {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #8d8d8d;
+    /* Сірий колір фону */
+    color: #ffffff;
+    /* Колір тексту (білий) */
+    text-decoration: none;
+    border: 1px solid #000;
+    /* Чорна обрамляюча лінія */
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+ .text-light {
+     color: #babbbc !important;
+ }
+
+ .card {
+     background-clip: padding-box;
+     box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
+ }
+
+ .row-bordered {
+     overflow: hidden;
+ }
+
+ .account-settings-fileinput {
+     position: absolute;
+     visibility: hidden;
+     width: 1px;
+     height: 1px;
+     opacity: 0;
+ }
+
+ .account-settings-links .list-group-item.active {
+     font-weight: bold !important;
+ }
+
+ html:not(.dark-style) .account-settings-links .list-group-item.active {
+     background: transparent !important;
+ }
+
+ .light-style .account-settings-links .list-group-item {
+     padding: 0.85rem 1.5rem;
+     border-color: rgba(24, 28, 33, 0.03) !important;
+ }
+
+ .light-style .account-settings-links .list-group-item.active {
+     color: #4e5155 !important;
+ }
+
+ body {
+     background: linear-gradient(to bottom right, #535353, #ffffff);
+ }
+
+.btn.btn-default.md-btn-flat {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: transparent !important;
+    box-sizing: border-box !important;
+}
+
+input {
+    box-sizing: border-box !important;
+    display: block;
+}

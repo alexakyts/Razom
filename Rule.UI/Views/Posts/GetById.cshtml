@@ -1,0 +1,28 @@
+﻿@model Rule.BL.Models.PostsDTO
+
+<h2>Posts Details</h2>
+
+<div>
+    <h4>Name:</h4>
+    <p>@Model.Name</p>
+</div>
+<div>
+    <h5>Description:</h5>
+    <p>@Model.Description</p>
+</div>
+<div>
+    <h5>FinishSum:</h5>
+    <p>@Model.FinishSum</p>
+</div>
+<div>
+    <h5>CreationTime:</h5>
+    <p>@Model.CreationTime</p>
+</div>
+<div>
+    <h5>Link:</h5>
+    <p>@Model.Link</p>
+</div>
+
+<form asp-controller="Posts" asp-action="Index" method="post">
+    <button type="submit" class="btn btn-danger">Return</button>
+</form>

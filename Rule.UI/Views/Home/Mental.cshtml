@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/mental.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+</head>
+<body>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1> Психологічна допомога</h1>
+            <p>Відновлюємо мир у серцях:</p>
+            <p>психологічна допомога для тих, хто відчув наслідки війни.</p>
+            <a src="/images/Дизайн1.png"></a>
+        </div>
+    </section>
+
+    <section class="doctors" id="doctors">
+        <div class="psyco">
+            <img class="profile-pic" src="/images/ginekolog-cherkasy-likar.jpg" alt="Profile Picture">
+            <div class="doctor-info">
+                <h1>Марія Ковальчук</h1>
+                <a>
+                    Я пропоную допомогу вашим дітям у розвитку емоційного та психічного благополуччя. Моя робота заснована на глибокому
+                    розумінні дитячої психології та використанні ефективних методів та технік, які допомагають дітям подолати стрес,
+                    розвивати емоційну інтелігенцію та зберігати психічне здоров'я.
+                </a>
+                <p>Спеціалізація: </p>
+                <a>дитячий психолог</a>
+                <p>Номер телефону: </p>
+                <a>+380967891647</a>
+                <p>Вулиця: </p>
+                <a>Вулиця Психологічна, 1</a>
+            </div>
+        </div>
+
+        <div class="psyco">
+            <img class="profile-p" src="/images/dw eopf .jpg" alt="Profile Picture">
+            <div class="doctor-in">
+                <h1>Олександр Кравченко</h1>
+                <a>
+                    Запрошую вас на сімейні консультації, де ми разом вивчимо динаміку вашої родини та знайдемо конструктивні способи
+                    вирішення конфліктів та підтримки кожного члена сім'ї. Моя мета - створити безпечне простір для відкритого спілкування
+                    та сприяти розвитку розуміння та взаємоповаги всередині сімейного кола.
+                </a>
+                <p>Спеціалізація: </p>
+                <a>сімейний психолог</a>
+                <p>Номер телефону: </p>
+                <a>+380964792617</a>
+                <p>Вулиця: </p>
+                <a>Вулиця Психологічна, 1</a>
+            </div>
+        </div>
+
+        <div class="psyco">
+            <img class="profile-pi" src="/images/0e95f21e723ddddf1f29ff37e958221b.webp" alt="Profile Picture">
+            <div class="doctor-inf">
+                <h1>Ірина Литвиненко</h1>
+                <a>
+                    Я пропоную психологічну підтримку та консультації для військовослужбовців та їхніх родин. Моя робота спрямована на
+                    допомогу з вирішення психологічних труднощів, що виникають внаслідок служби, а також на розвиток стресостійкості,
+                    відновлення психічного здоров'я та підтримку адаптації до цивільного життя після служби.</p>
+                    <p>Спеціалізація: </p>
+                    <a>військовий психолог</a>
+                    <p>Номер телефону: </p>
+                    <a>+380652984714</a>
+                    <p>Вулиця: </p>
+                    <a>Вулиця Психологічна, 1</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="newletter">
+        <div class=" news-text">
+            <h2>Гаряча лінія психологічної допомоги</h2>
+            <p>Залиш свій номер і ми тобі зателефонуємо</p>
+        </div>
+
+        <div class="send">
+            @if (!string.IsNullOrEmpty(TempData["Message"] as string))
+            {
+                <div class="alert alert-success">@TempData["Message"]</div>
+            }
+            <form action="@Url.Action("SendPhoneNumber", "Home")" method="post">
+                <input type="text" name="phoneNumber" placeholder="Напишіть свій номер телефону" required>
+                <input type="submit" value="Надіслати">
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

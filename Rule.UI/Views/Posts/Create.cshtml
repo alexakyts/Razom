@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" />
+    <link href="~/css/form.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="Container">
+        <form action="" method="post">
+            <h2> Розміщення оголошення</h2>
+            <div class="content">
+                <div>
+                    <label for="category">Категорія</label>
+                    <select id="category" name="category" required onchange="toggleSumField()">
+                        <option value="pets">Притулок для тварин</option>
+                        <option value="searching"> Пошук домівки</option>
+                        <option value="zbir"> Збір</option>
+                    </select>
+                </div>
+
+                <div class="content">
+                    <div class="input-box">
+                        <label for="name">Заголовок оголошення</label>
+                        <input type="text" placeholder="Напишіть назву для оголошення" name="назва" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="type">Оберіть, що вам потрібно:</label><br>
+                        <div class="radio-container">
+                            <input type="radio" id="propunuyu_dopomogu" name="dopomoga" value="propunuyu_dopomogu"
+                                   required>
+                            <label for="propunuyu_dopomogu">Пропоную допомогу</label><br>
+                            <input type="radio" id="potrebuyu_dopomogu" name="dopomoga" value="potrebuyu_dopomogu"
+                                   required>
+                            <label for="potrebuyu_dopomogu">Потребую допомогу</label><br>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="photos">Фото</label>
+                        <div style="display: flex;">
+                            <input type="file" id="photos" name="фото" accept="image/*"
+                                   style="flex: 1; visibility: hidden; position: absolute;">
+                            <button type="button" id="add-file-button">Додати файл</button>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="name">Додайте опис</label>
+                        <input type="text" placeholder="description" name="опис" required>
+                    </div>
+                    <div class="input-box sumField" id="sumField">
+                        <label for="name">Необхідна сума</label>
+                        <input type="text" placeholder="sum" name="сума" required>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button>Розмістити</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script>
+    function toggleSumField() {
+        var categorySelect = document.getElementById("category");
+        var sumField = document.getElementById("sumField");
+        console.log(sumField)
+        if (categorySelect.value === "zbir") {
+            sumField.style.display = "block";
+        } else {
+            sumField.style.display = "none";
+        }
+    }
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById('add-file-button').addEventListener('click', function () {
+            document.getElementById('photos').click();
+        });
+    });
+</script>
+</html>

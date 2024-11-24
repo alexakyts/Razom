@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+
+:root {
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-colour: #000000;
+    --main-colour: #6e54fa;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 30px 18%;
+    transition: ease 0.4s;
+}
+
+section {
+    padding: 80px 18%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/Дизайн1.png');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: var(--big-font);
+    line-height: 1.2;
+    color: var(--second-colour);
+    font-family: "Paytone One", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.home-text p {
+    color: rgba(0, 0, 0, 0.749);
+    font-size: 20px;
+    /* Adjusted font size */
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 0px;
+}
+
+ .doctors {
+     background-color: #fff;
+     border: 5px solid #ddd;
+     margin-bottom: 40px;
+ }
+
+ .psyco {
+     display: flex;
+     align-items: center;
+     padding: 10px;
+ }
+
+  .profile-pic {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px;
+  }
+
+ 
+
+  .doctor-info h1 {
+      margin-bottom: 50px;
+  }
+
+  .doctor-info p {
+      margin-bottom: 5px;
+  }
+
+  .doctor-info {
+      border: none;
+      /* Видаляємо рамку */
+      padding: 20px;
+      background-color: #f3f3f3;
+      /* Сірий колір */
+      width: 100%;
+      /* Розтягнути блок на всю ширину */
+      box-sizing: border-box;
+      /* Включаємо padding у ширину */
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      /* Тінь */
+  }
+
+.profile-pic {
+    background-image: url('../images//ginekolog-cherkasy-likar.jpg');
+    width: 200px;
+    /* Маштабуємо фото профілю */
+    height: 200px;
+    /* Маштабуємо фото профілю */
+    border-radius: 50%;
+    /* Круглий кут фото профілю */
+    margin-right: 20px;
+    /* Збільшуємо відстань між фото та текстом */
+}
+
+.profile-pi {
+    background-image: url('../images/ginekolog-cherkasy-likar.jpg');
+    width: 200px;
+    /* Маштабуємо фото профілю */
+    height: 200px;
+    /* Маштабуємо фото профілю */
+    border-radius: 50%;
+    /* Круглий кут фото профілю */
+    margin-right: 20px;
+    /* Збільшуємо відстань між фото та текстом */
+}
+
+        .profile-p{
+            background-image: url('../images/ginekolog-cherkasy-likar.jpg');
+            width: 200px;
+            /* Маштабуємо фото профілю */
+            height: 200px;
+            /* Маштабуємо фото профілю */
+            border-radius: 50%;
+            /* Круглий кут фото профілю */
+            margin-right: 20px;
+            /* Збільшуємо відстань між фото та текстом */
+        }
+
+
+                .doctor-inf h1 {
+                    margin-bottom: 50px;
+                }
+        
+                .doctor-inf p {
+                    margin-bottom: 5px;
+                }
+        
+                .doctor-inf {
+                    border: none;
+                    /* Видаляємо рамку */
+                    padding: 20px;
+                    background-color: #f3f3f3;
+                    /* Сірий колір */
+                    width: 100%;
+                    /* Розтягнути блок на всю ширину */
+                    box-sizing: border-box;
+                    /* Включаємо padding у ширину */
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+                    /* Тінь */
+                }
+
+                                .doctor-in h1 {
+                                    margin-bottom: 50px;
+                                }
+                
+                                .doctor-in p {
+                                    margin-bottom: 5px;
+                                }
+                
+                                .doctor-in {
+                                    border: none;
+                                    /* Видаляємо рамку */
+                                    padding: 20px;
+                                    background-color: #f3f3f3;
+                                    /* Сірий колір */
+                                    width: 100%;
+                                    /* Розтягнути блок на всю ширину */
+                                    box-sizing: border-box;
+                                    /* Включаємо padding у ширину */
+                                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+                                    /* Тінь */
+                                }
+
+                                                               
+                                                                .doctor-info p {
+                                                                    margin-bottom: 5px;
+                                                                    font-weight: bold;
+                                                                    /* Додайте жирний шрифт для номеру телефону та вулиці */
+                                                                }
+ .doctor-inf p {
+     margin-bottom: 5px;
+     font-weight: bold;
+     /* Додайте жирний шрифт для номеру телефону та вулиці */
+ }
+  .doctor-in p {
+      margin-bottom: 5px;
+      font-weight: bold;
+      /* Додайте жирний шрифт для номеру телефону та вулиці */
+  }
+
+  .newletter {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      grid-gap: 3rem;
+  }
+
+  .news-text h2 {
+      font-size: var(--h2-font);
+      margin-bottom: 5px;
+  }
+
+  .news-text p {
+      font-size: var(--p-font);
+      color: var(--second-colour);
+      line-height: 30px;
+  }
+
+  .newletter form {
+      max-width: 100%;
+      width: 450px;
+      position: relative;
+  }
+
+  .newletter form input:first-child {
+      display: inline-block;
+      width: 100%;
+      padding: 20px 150px 20px 30px;
+      box-shadow: 5px 10px 30px rgba(85, 85, 85, 0.2);
+      outline: none;
+      border: none;
+      border-radius: 15px;
+  }
+
+  .newletter form input:last-child {
+      display: inline-block;
+      position: absolute;
+      outline: none;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 15px;
+      background: var(#221314));
+      color: var(--second-colour);
+      top: 6px;
+      right: 6px;
+      cursor: pointer;
+  }
+
+  

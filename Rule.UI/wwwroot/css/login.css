@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #707070 no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90%;
+    /* зменшуємо ширину для адаптації */
+    max-width: 400px;
+    /* максимальна ширина для малих екранів */
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    /* зменшуємо відступи */
+    border: 1px solid black;
+}
+
+.wrapper h1 {
+    font-size: 24px;
+    /* зменшуємо розмір заголовку */
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    /* зменшуємо відступи */
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 14px;
+    /* зменшуємо розмір шрифту */
+    color: #fff;
+    padding: 15px 20px;
+    /* зменшуємо відступи */
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 15px;
+    /* зменшуємо відступи */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    /* зменшуємо розмір іконки */
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    /* зменшуємо розмір тексту */
+    margin: -10px 0 10px;
+    /* зменшуємо відступи */
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 40px;
+    /* зменшуємо висоту кнопки */
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 14px;
+    /* зменшуємо розмір тексту */
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 12px;
+    /* зменшуємо розмір тексту */
+    text-align: center;
+    margin: 15px 0;
+    /* зменшуємо відступи */
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптація під мобільні пристрої */
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding: 20px;
+        /* зменшуємо відступи */
+        margin-top: 20px;
+        /* зменшуємо відступи */
+    }
+
+    .wrapper h1 {
+        font-size: 20px;
+        /* зменшуємо розмір заголовку */
+    }
+
+    .input-box input {
+        font-size: 12px;
+        /* зменшуємо розмір шрифту */
+        padding: 10px 15px;
+        /* зменшуємо відступи */
+    }
+
+    .input-box i {
+        right: 10px;
+        /* зменшуємо відступи */
+        font-size: 14px;
+        /* зменшуємо розмір іконки */
+    }
+
+    .wrapper .remember-forgot {
+        font-size: 10px;
+        /* зменшуємо розмір тексту */
+        margin: -5px 0 5px;
+        /* зменшуємо відступи */
+    }
+
+    .wrapper .btn {
+        height: 35px;
+        /* зменшуємо висоту кнопки */
+        font-size: 12px;
+        /* зменшуємо розмір тексту */
+    }
+
+    .wrapper .register-link {
+        font-size: 10px;
+        /* зменшуємо розмір тексту */
+        margin: 10px 0;
+        /* зменшуємо відступи */
+    }
+}
